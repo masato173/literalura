@@ -21,13 +21,8 @@ Este projeto utiliza as seguintes tecnologias:
 
 ## 🛠️ Como executar
 
-1. 📥 Clone o repositório
-   ```bash
-   git clone git@github.com:mpbmarcio/challenge-literalura.git
-   cd literalura
-   mvn spring-boot:run
-   ```
-2. ⚙️ Configure o banco de dados no `application.properties`
+
+1. ⚙️ Configure o banco de dados no `application.properties`
    ```properties
    spring.application.name=literalura
    spring.datasource.url=jdbc:postgresql://${DB_HOST}/literalura
